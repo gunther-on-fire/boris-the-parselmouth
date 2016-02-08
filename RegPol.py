@@ -6,13 +6,13 @@ turtle.shape('turtle')
 def RegPolygon(r,n):
 		b = 180*(1-2/n)
 		turtle.right(180-b/2)
-		a = 2*r*math.sin(math.pi/n)
+		a = 2*r*math.sin(math.pi/n) #длина стороны
 		
 		for i in range(n):
 			turtle.forward(a)
 			turtle.right(180-b)
 r = 20
-n = 3
+n = 3 #минимальный n-угольник
 step = 10
 
 for i in range (10):
