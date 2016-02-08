@@ -17,4 +17,4 @@ for angle in range(double_leaf):
 			turtle.forward(a)
 			turtle.left(180-phi)
 		phi = 360-phi #смена угла
-	delta += 60 #угол поворота
+	delta += 180/double_leaf #угол поворота
