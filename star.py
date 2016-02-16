@@ -2,7 +2,6 @@ import turtle
 from math import pi, cos
 
 turtle.shape("turtle")
-
 turtle.speed(1)
 
 def star(r,n):
@@ -16,7 +15,7 @@ def star(r,n):
 	turtle.pendown()
 
 	for i in range(n):
-		turtle.forward(2*r)
+		turtle.forward(l)
 		turtle.right(180-angle)
 
 r = 150
