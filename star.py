@@ -22,4 +22,4 @@ def star(r,n):
 r = 150
 
 star(r,11)
-turtle.goto(0,0)
+turtle.goto(0,0) #проверка центра звезды
