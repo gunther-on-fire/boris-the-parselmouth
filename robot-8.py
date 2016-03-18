@@ -4,6 +4,7 @@ r = robot.rmap()
  #загружаем карту соответствующей задачи
 r.lm('task8')
 r.sleep = 0.05
+
 def switch_direction(direction):
 	if direction == 1:
 		return -1
