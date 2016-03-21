@@ -37,6 +37,5 @@ def task():
 			cell_to_be_painted(direction)
 			if r.wl():
 				direction = switch_direction()
-		print(direction)
 r.start(task)
 
