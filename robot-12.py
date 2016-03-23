@@ -3,7 +3,7 @@ import robot
 r = robot.rmap()
  #загружаем карту соответствующей задачи
 r.lm('task12')
-r.sleep = 0.3
+r.sleep = 0.05
 
 def change_direction(d):
 	if d == 1:
