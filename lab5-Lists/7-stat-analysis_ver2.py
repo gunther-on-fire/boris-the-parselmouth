@@ -2,7 +2,6 @@ input = open('int_list.txt', 'r')
 
 A = []
 B = []
-C = []
 
 max_rep = min_rep = None
 
