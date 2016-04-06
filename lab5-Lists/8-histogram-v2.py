@@ -15,7 +15,6 @@ l = _max - _min
 for elem in A:
 	i = int((elem -_min)/l*N)
 	Counts[i] += 1
-print(Counts)
 
 plt.bar([A[0]+l/N*k for k in range(N)], Counts, width = l/N)
 plt.xticks([A[0]+l/N*k for k in range(N)])
