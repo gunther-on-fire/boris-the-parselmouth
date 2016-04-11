@@ -1,20 +1,15 @@
+import math
+
 A = list(map(int,input().split()))
 A = A[:10]
 
-if 2 in A:
-	if A[-1] == 2 and A.count(2) == 1:
-		print(sum(A)//len(A))
-	else:
-		A.sort()
-		quantity = A.count(2)
-		if quantity <= len(A)//2:
-			to_be_removed = quantity
-		else:
-			to_be_removed = len(A) - quantity
+s = 0
+c = 1
 
-		for i in range(to_be_removed):
-			A.remove(2)
+for i in range(9):
+    if A[i] != 2 or A[i+1] == 2:
+        s += A[i]
+        c += 1
 
-		print(sum(A)//len(A))
-else:
-	print(sum(A)//len(A))
+s += A[9]
+print(math.floor(s/c))
