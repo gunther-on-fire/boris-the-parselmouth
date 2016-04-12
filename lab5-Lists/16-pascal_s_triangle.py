@@ -6,6 +6,3 @@ for i in range(n+1):
 	A.insert(0,0)
 	for j in range(len(A)-1):
 		A[j] += A[j+1]
-
-
-
